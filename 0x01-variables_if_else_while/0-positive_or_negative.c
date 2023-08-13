@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- main - The entry point for the programme
+ * main - The entry point for the programme
  * Return: Main evaluates to zero
  */
 int main(void)
