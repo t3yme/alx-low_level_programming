@@ -4,8 +4,7 @@
 /* more headers goes there */
 
 /**
- * betty style doc for function main goes there 
- * main - The entry point for the programme
+ main - The entry point for the programme
  * Return: Main evaluates to zero
  */
 int main(void)
@@ -19,6 +18,7 @@ int main(void)
 		printf("%d is negative\n", n);
 	else if (n > 0)
 		printf("%d is positive\n", n);
-	else printf("%d is zero\n", n);
+	else
+		printf("%d is zero\n", n);
 	return (0);
 }
