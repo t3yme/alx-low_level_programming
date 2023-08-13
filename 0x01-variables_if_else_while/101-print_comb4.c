@@ -21,6 +21,7 @@ int main(void)
 				{
 					putchar('0' + a);
 					putchar('0' + b);
+					putchar('0' + c);
 					if (a == 7)
 						break;
 					putchar(',');
