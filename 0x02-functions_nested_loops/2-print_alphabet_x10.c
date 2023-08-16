@@ -2,7 +2,7 @@
 /* more headers goes there */
 
 /**
- * print_alphabetx10 - Defines the function to print a to z, 10times to stdout
+ * print_alphabet_x10 - Defines the function to print a to z, 10times to stdout
  * Return: evaluates to integer on success
  */
 void print_alphabet_x10(void)
@@ -16,7 +16,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(alphabet);
 		}
+		_putchar('\n');
 	}
 
-	_putchar('\n');
 }
