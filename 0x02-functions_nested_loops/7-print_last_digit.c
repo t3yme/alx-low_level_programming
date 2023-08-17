@@ -1,4 +1,5 @@
 #include "main.h"
+#include "6-abs.c"
 /* more headers goes there */
 
 /**
@@ -9,6 +10,6 @@
 
 int print_last_digit(int n)
 {
-	_putchar((n % 10) + '0');
-	return (n % 10);
+	_putchar(_abs(n % 10) + '0');
+	return (_abs(n % 10));
 }
