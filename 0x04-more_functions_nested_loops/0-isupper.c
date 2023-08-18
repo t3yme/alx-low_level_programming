@@ -2,7 +2,7 @@
 /* more headers goes there */
 
 /**
- * _islower - Defines the function to determine a lower case letter
+ * _isupper - Defines the function to determine a lower case letter
  * @c: parameter provided for testing
  * Return: evaluates to integer on success
  */
