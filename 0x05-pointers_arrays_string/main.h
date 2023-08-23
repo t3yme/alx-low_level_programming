@@ -4,6 +4,6 @@
 #include <stdio.h>
 
 int _putchar(char);
-void reset_to_98(int *n);
+void reset_to_98(int);
 
 #endif /* MAIN_H */
