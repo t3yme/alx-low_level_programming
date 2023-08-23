@@ -2,7 +2,7 @@
 /* more headers goes there */
 
 /**
- r reset_to_98 - a function that resets a pointer value to 98
+ * swap_int - swaps the values of two integers
  * @a: parameter provided for testing
  * @b: second parameter provided for testing
  * Return: evaluates to integer on success
