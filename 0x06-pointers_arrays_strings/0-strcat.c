@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /* more headers goes there */
 
 /**
@@ -11,12 +10,18 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int d = strlen(dest);
-	int s = strlen(src);
+	int d = 0;
+	int s = 0;
 	int j = 0;
 	int i;
 
-	for (i = d - 1; (i < d + s - 1); i++)
+	for (i = 0; dest[i] != '\0'; i++)
+		d++;
+
+	for (i = 1; dest[i] != '\0'; i++)
+		s++;
+
+	for (i = d - 1; (i < d + s); i++)
 	{
 		dest[i] = src[j];
 		j++;
